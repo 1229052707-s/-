@@ -1,21 +1,26 @@
 <template>
     <div>
-
-    <Footer></Footer>
       <div class="fu">
         <div class="bia"></div>
         <input type="text" placeholder="搜索商品名称" class="input-box">
         <div class="Bia"></div>
       </div>
+      <classification></classification>
+      <contact></contact>
+      <Footer></Footer>
     </div>
+
 </template>
 
 <script>
   import Footer from "../components/footer/footer";
+  import classification from "../components/footer/classification";
+  import contact from "../components/footer/contact";
     export default {
-
         components:{
-            Footer
+            Footer,
+            classification,
+            contact
         }
     }
 </script>
