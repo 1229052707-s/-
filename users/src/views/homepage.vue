@@ -5,22 +5,117 @@
         <input type="text" placeholder="搜索商品名称" class="input-box">
         <div class="Bia"></div>
       </div>
+      <lunbo></lunbo>
       <classification></classification>
       <contact></contact>
-      <Footer></Footer>
+      <category></category>
+      <homelisto :items="items"></homelisto>
+      <homelistt :items="items"></homelistt>
+      <homelistth :item="item"></homelistth>
+      <homelistf :item="item"></homelistf>
+      <homelistfi :item="item"></homelistfi>
+      <evaluate></evaluate>
+      <haha-footer></haha-footer>
     </div>
 
 </template>
 
 <script>
-  import Footer from "../components/footer/footer";
+  import hahaFooter from "../components/footer/bar";
   import classification from "../components/footer/classification";
   import contact from "../components/footer/contact";
+  import lunbo from "../components/footer/lunbo"
+  import category from "../components/footer/category"
+  import homelisto from "../components/footer/homelisto";
+  import homelistt from "../components/footer/homelistt"
+  import homelistth from "../components/footer/homelistth";
+  import homelistf from "../components/footer/homelistf";
+  import homelistfi from "../components/footer/homelistfi";
+  import evaluate from "../components/footer/evaluate";
     export default {
+        name:"homepage",
+        data(){
+            return {
+
+                    items:[
+                         {
+                             url:"../../../static/img/5cde90ce2773a.jpg@0o_0l_300w_100q.jpg",
+                             name:"心动时刻-十九多粉佳人玫瑰花束",
+                             price:"￥168.00"
+                         },
+                         {
+                             url:"../../../static/img/5cde90f1688b6.jpg@0o_0l_300w_100q.jpg",
+                             name:"心动时刻-十九多粉雪山玫瑰花束",
+                             price:"￥168.00"
+                         },
+                        {
+                            url:"../../../static/img/5cde90ce2773a.jpg@0o_0l_300w_100q.jpg",
+                            name:"心动时刻-十九多粉佳人玫瑰花束",
+                            price:"￥168.00"
+                        },
+                        {
+                            url:"../../../static/img/5bebbe02aced9.jpg@0o_0l_300w_100q.jpg",
+                            name:"心动时刻-十九多粉佳人玫瑰花束",
+                            price:"￥168.00"
+                        },
+                        {
+                            url:"../../../static/img/5c5f9afab00df.jpg@0o_0l_300w_100q.jpg",
+                            name:"心动时刻-十九多粉佳人玫瑰花束",
+                            price:"￥168.00"
+                        },
+                        {
+                            url:"../../../static/img/5bebc92977022.jpg@0o_0l_300w_100q.jpg",
+                            name:"心动时刻-十九多粉佳人玫瑰花束",
+                            price:"￥168.00"
+                        },
+                        {
+                            url:"../../../static/img/5c283e2ba7476.jpg@0o_0l_300w_100q.jpg",
+                            name:"心动时刻-十九多粉佳人玫瑰花束",
+                            price:"￥168.00"
+                        },
+                        {
+                            url:"../../../static/img/5c95cd1307438.jpg@0o_0l_300w_100q.jpg",
+                            name:"心动时刻-十九多粉佳人玫瑰花束",
+                            price:"￥168.00"
+                        },
+                          ],
+                item:[
+                    {
+                        url:"../../../static/img/5cde90ce2773a.jpg@0o_0l_300w_100q.jpg",
+                        name:"心动时刻-十九多粉佳人玫瑰花束",
+                        price:"￥168.00"
+                    },
+                    {
+                        url:"../../../static/img/5cde90f1688b6.jpg@0o_0l_300w_100q.jpg",
+                        name:"心动时刻-十九多粉雪山玫瑰花束",
+                        price:"￥168.00"
+                    },
+                    {
+                        url:"../../../static/img/5cde90ce2773a.jpg@0o_0l_300w_100q.jpg",
+                        name:"心动时刻-十九多粉佳人玫瑰花束",
+                        price:"￥168.00"
+                    },
+                    {
+                        url:"../../../static/img/5cde90ce2773a.jpg@0o_0l_300w_100q.jpg",
+                        name:"心动时刻-十九多粉佳人玫瑰花束",
+                        price:"￥168.00"
+                    }
+                ]
+
+            }
+        },
         components:{
-            Footer,
+            hahaFooter,
             classification,
-            contact
+            contact,
+            lunbo,
+            category,
+            homelisto,
+            homelistt,
+            homelistth,
+            homelistf,
+            homelistfi,
+            evaluate
         }
     }
 </script>

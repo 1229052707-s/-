@@ -2,7 +2,7 @@
   <div>
 
       <a href=""><span class="a"></span><b>4006520778</b></a>
-      <a href="" style="background-color:#8B8FFA"><span class="b"></span><b>在线咨询</b></a>
+      <a href="" style="background-color: #8B8FFA"><span class="b"></span><b>在线咨询</b></a>
 
   </div>
 </template>
@@ -24,7 +24,6 @@
     height: 40px;
     width: 48%;
     border-radius:25px;
-
     color: #fff;
     background-color: #ff6600;
   }

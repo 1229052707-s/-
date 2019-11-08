@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import { Swipe, SwipeItem } from 'vue-swipe'  // 加这里
+
+Vue.component('swipe', Swipe)  // 加这里
+Vue.component('swipe-item', SwipeItem) // 加这里
 
 Vue.config.productionTip = false
 

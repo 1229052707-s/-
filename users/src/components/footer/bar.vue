@@ -1,5 +1,5 @@
 <template>
-  <div class="footer" >
+  <div class="bar" >
 
       <router-link to="/homepage"><span class="a"></span><p style="margin-left: 0.2rem;">首页</p></router-link>
       <router-link to="/classify"><span class="b"></span><p style="margin-left: 0.11rem;">分类</p></router-link>
@@ -12,17 +12,18 @@
 
 <script>
     export default {
-        name: "footer"
+        name: "vfooter"
     }
 </script>
 
 <style scoped>
-  .footer {
+  .bar {
       width: 100%;
       position: fixed;
       display: flex;
       flex-direction: row;
       bottom: 0;
+    background-color:white;
     }
   a{
     flex: 1;

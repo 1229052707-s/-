@@ -13,4 +13,8 @@ export default {
 
 <style>
   @import "assets/App.css";
+  #app{
+    width: 100%;
+    height: 5000px;
+  }
 </style>

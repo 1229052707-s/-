@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <ul class="menubox">
       <li>
         <a href="" title="鲜花">
@@ -7,34 +8,38 @@
         <p>鲜花</p>
         </a>
       </li>
+
+
       <li>
         <a href="" title="蛋糕">
-          <p class="menuicon" style="background:#FFCF2F"><span class="cake"></span></p>
+          <p class="menuicon" style="background-color: #FFCF2F"><span class="cake"></span></p>
           <p>蛋糕</p>
         </a>
       </li>
       <li>
         <a href="" title="花篮">
-          <p class="menuicon"  style="background:#8B8FFA"><span class="baskets"></span></p>
+          <p class="menuicon" style="background-color: #8B8FFA"><span class="baskets"></span></p>
           <p>花篮</p></a>
       </li>
       <li>
         <a href="" title="礼品">
-          <p class="menuicon"  style="background:#4CC6ED"><span class="gift"></span></p>
+          <p class="menuicon" style="background-color:#4CC6ED"><span class="gift"></span></p>
           <p>礼品</p>
         </a>
       </li>
       <li>
         <a href="" title="更多">
-          <p class="menuicon"  style="background:#2BD3C2"><span class="more"></span></p>
+          <p class="menuicon" style="background-color:#2BD3C2"><span class="more"></span></p>
           <p>更多</p>
         </a>
       </li>
     </ul>
+
   </div>
 </template>
 
 <script>
+
     export default {
         name: "classification"
     }
